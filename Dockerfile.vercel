@@ -34,4 +34,4 @@ RUN useradd -ms /bin/bash Alcoholic \
 # Run the artefact
 USER Alcoholic
 EXPOSE 6969
-ENTRYPOINT ["/bin/sh", "-c", "echo PORT=$PORT && /opt/anisette-v3-server"]
+ENTRYPOINT [ "/opt/anisette-v3-server" ]
